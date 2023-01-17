@@ -1,4 +1,6 @@
 # CV-Generator
+A CV generator is a tool or software that allows users to create and design a professional-looking curriculum vitae (CV) without the need for manual formatting or design skills. Users can input their personal and professional information, and the generator will arrange it in a visually appealing format. Some CV generators also include features such as pre-written phrases, tips for writing, and the ability to export the CV in various file formats. They can be found online and some are free to use while some are paid.
+A CV generator that uses HTML, CSS, and JavaScript would typically be a web-based application that allows users to create and design a professional-looking curriculum vitae (CV) by inputting their personal and professional information into a form. The application would then use HTML to structure the content, CSS to style and layout the design, and JavaScript to add interactive and dynamic features such as form validation and real-time preview. With the help of HTML,CSS and javascript developer can create a very rich and interactive CV generator with multiple templates and options.
 
 Normal Review Page
 ![image](https://user-images.githubusercontent.com/102310770/212890501-85df09ab-cbe6-430c-a42e-d6d1516b3e3c.png)
@@ -44,7 +46,7 @@ Interactive Page
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 # This website are here
-# Click this link : 
+# Click this link : https://cv-and-resume-generator.netlify.app
 
 # Thanks to watching
 
