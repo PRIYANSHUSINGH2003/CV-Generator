@@ -1,4 +1,3 @@
 # CV-Generator
 
-![Uploading image.png…]()
-fdbfb
+![Uploading 1.png…]()
