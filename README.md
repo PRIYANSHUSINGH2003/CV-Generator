@@ -11,8 +11,8 @@ User Detail
 ![image](https://user-images.githubusercontent.com/102310770/212890374-e6fd917a-b4a5-4e96-a6fa-5ad3fdfdd87b.png)
 ![image](https://user-images.githubusercontent.com/102310770/212891019-8738eca9-4898-4108-8fb1-9d7b647a2b7a.png)
 ![image](https://user-images.githubusercontent.com/102310770/212891105-bfea830e-55fb-45ea-b537-2c1cb02ecde7.png)
-![image](https://user-images.githubusercontent.com/102310770/212894510-a8dd0c8b-7057-432e-b969-448c525714fe.png)
 # CV READY
+![image](https://user-images.githubusercontent.com/102310770/212894510-a8dd0c8b-7057-432e-b969-448c525714fe.png)
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
