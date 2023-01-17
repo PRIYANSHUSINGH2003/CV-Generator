@@ -13,6 +13,7 @@ User Detail
 ![image](https://user-images.githubusercontent.com/102310770/212891105-bfea830e-55fb-45ea-b537-2c1cb02ecde7.png)
 # CV READY
 ![image](https://user-images.githubusercontent.com/102310770/212894510-a8dd0c8b-7057-432e-b969-448c525714fe.png)
+![image](https://user-images.githubusercontent.com/102310770/212894778-14266a72-1ea6-4bc0-8a32-f99b63e25b88.png)
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -23,5 +24,14 @@ Interactive Page
 
 Image Effect
 ![image](https://user-images.githubusercontent.com/102310770/212891840-bbfa66ec-ab98-4e39-8c0b-46cf66312701.png)
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Responsive Nature
+![image](https://user-images.githubusercontent.com/102310770/212895219-34bd726f-ee62-48b0-8bc2-c333b5a89bbb.png)
+![image](https://user-images.githubusercontent.com/102310770/212895083-9c31d25e-3ff8-44a8-b090-02a3e329492c.png)
+CV
+![image](https://user-images.githubusercontent.com/102310770/212895330-cc0a099b-0b83-47fa-a4a6-85f69aa5771a.png)
+![image](https://user-images.githubusercontent.com/102310770/212895503-3fb0e0cf-1dc5-488c-8e8f-83156eabcf96.png)
+
 
 
