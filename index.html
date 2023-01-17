@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/logo-me.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Resume Generator</title>
+</head>
+
+<body>
+    <div class="container-cv-demo" id="cv-form">
+        <div class="container-cv">
+            <div class="title-cv">
+                <h1 class="h1 text-center mt-5">Resume Generator</h1>
+                <p class="text-center">By Priyanshu Singh</p>
+            </div>
+            <div class="content">
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Your Name</span>
+                            <input type="text" id="nameFeild" placeholder="Enter your name">
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Your Address</span>
+                            <textarea type="text" id="addressField" placeholder="Enter your address"></textarea>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Your Email</span>
+                            <input type="text" id="EmailFeild" placeholder="Enter your email">
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Your Phone Number</span>
+                            <input type="text" id="contactFeild" placeholder="Enter your number">
+                        </div>
+                    </div>
+                    <div class="title-cv">
+                        <h2 class="">Professional Details</h2>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Title</span>
+                            <input type="text" id="Recutment" placeholder="Enter your title">
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Profile</span>
+                            <textarea type="text" placeholder="Enter your Profile" id="profile"></textarea>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Objective</span>
+                            <textarea type="text" placeholder="Enter your Objective" id="ObjectiveFeild"></textarea>
+                            <span id="Academic-Qualification"></span>
+                            <div id="aqButton">Add</div>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Hobbies</span>
+                            <input type="text" placeholder="Enter your hobbies" class="hobbies">
+                            <span id="Interest"></span>
+                            <div id="InButton">Add</div>
+                        </div>
+                    </div>
+                    <div class="title-cv">
+                        <h2 class="">Education Details</h2>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Year(School/College/Degree/UG/PG)</span>
+                            <input type="text" placeholder="Enter your Year" class="Ed-Year">
+                            <span id="ed-year"></span>
+                            <div id="edbutton">add</div>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Name of Course(School/College/Degree/UG/PG)</span>
+                            <input type="text" placeholder="Enter your Course" class="Ed-CouseName">
+                            <span id="ed-name"></span>
+                            <div id="edbutton1">add</div>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Name of University(School/College)</span>
+                            <input type="text" placeholder="Enter your School/University" class="Ed-Univer">
+                            <span id="ed-school"></span>
+                            <div id="edbutton2">add</div>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Enter your Facebook Link</span>
+                            <input type="text" id="fbFeild" placeholder="Enter your link">
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Enter your Instagram Link</span>
+                            <input type="text" id="instaFeild" placeholder="Enter your link">
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Enter your Linkend Link</span>
+                            <input type="text" id="linkendFeild" placeholder="Enter your link">
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Profile Image</span>
+                            <input type="file" id="Profile-image" class="profileimage">
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Enter your Other Link</span>
+                            <input type="text" id="OtherFeild" placeholder="Enter your link">
+                        </div>
+                    </div>
+                    <div class="title-cv">
+                        <h2 class="">Languages</h2>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Enter your Languages</span>
+                            <input type="text" placeholder="Enter your Languages" class="LangName" id="LangName">
+                            <span id="LangeYear"></span>
+                            <div id="LangButton">Add</div>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Enter your Languages (Percent)</span>
+                            <input type="text" placeholder="Enter your Percent" class="LangPercent" id="LangPercent">
+                            <span id="LangePercent">
+                                <div id="LangPercentButton">Add</div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="title-cv">
+                        <h2 class="">PROFESSIONAL SKILLS</h2>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Enter your PROFESSIONAL SKILLS</span>
+                            <input type="text" placeholder="Enter your Skill" class="prof-skills">
+                            <span id="SKILLSYear"></span>
+                            <div id="SKILLSButton">Add</div>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Enter your PROFESSIONAL SKILLS (Percent)</span>
+                            <input type="text" placeholder="Enter your Percent" class="prof-skills-percent">
+                            <span id="SKILLSPercent"></span>
+                            <div id="SKILLSPercentButton">Add</div>
+                        </div>
+                    </div>
+                    <div class="title-cv">
+                        <h2 class="">EXPERIENCE</h2>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Enter your Experience Year (Start and End)</span>
+                            <input type="text" placeholder="Enter your Year" class="experienceYear">
+                            <span id="ExperienceYear"></span>
+                            <div id="ExperienceSKILLSButton">Add</div>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Enter your Campany Name</span>
+                            <input type="text" placeholder="Enter your company name" class="experienCompanyName">
+                            <span id="CampanyName"></span>
+                            <div id="CampanyNameButton">Add</div>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Enter your Post(Company)</span>
+                            <input type="text" placeholder="Enter your company post" class="experienCompanyPost1">
+                            <span id="CampanyPost1"></span>
+                            <div id="CampanyPostButton1">Add</div>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Enter your Campany Work(Address and Details)</span>
+                            <textarea type="text" placeholder="Enter your work" class="experienAddress"></textarea>
+                            <span id="CampanyWork"></span>
+                            <div id="CampanyWorkButton">Add</div>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" id="Generator-CV" value="Generator CV">
+                    </div>
+                </form>
+                <footer class="footer">
+                    <p class="footer-text">&copy; 2023 Created by Priyanshu Singh</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <div id="cv-template">
+        <div class="container-cv-template1" id="data">
+            <div class="container-cv-template"id="data1">
+                <div class="left_side">
+                    <div class="profileText">
+                        <div class="imgBx">
+                            <img src="/img/logo.jfif" alt="" id="imageT">
+                        </div>
+                        <h2 id="nameT">Priyanshu Singh</h2>
+                        <h2><span id="RecutmentT">Web Developer</span></h2>
+                    </div>
+                    <div class="containerInformation">
+                        <h3 class="cv-title">Contact Info</h3>
+                        <ul>
+                            <li>
+                                <span class="icon-cv-contact Icon-cv"><i class="fa-solid fa-phone"></i></span>
+                                <span class="cv-text" id="contactT">+91 232 322 2441</span>
+                            </li>
+                            <li>
+                                <span class="icon-cv-email Icon-cv"><i class="fa-solid fa-envelope"></i></span>
+                                <span class="cv-text" id="emailT">priyanshusingh00004@gmail.com</span>
+                            </li>
+                            <li>
+                                <span class="icon-cv-facebook Icon-cv"><i class="fa-brands fa-facebook"></i></span>
+                                <span class="cv-text" id="facebookT">www.faceboce.com/priyanshusingh</span>
+                            </li>
+                            <li>
+                                <span class="icon-cv-instagram Icon-cv"><i
+                                        class="fa-brands fa-square-instagram"></i></span>
+                                <span class="cv-text" id="instaT">www.instagram.com/priyanshusingh</span>
+                            </li>
+                            <li>
+                                <span class="icon-cv-linkend Icon-cv"><i class="fa-brands fa-linkedin"></i></span>
+                                <span class="cv-text" id="linkendT">www.linkend.com/priyanshusingh</span>
+                            </li>
+                            <li>
+                                <span class="icon-cv-Address Icon-cv"><i class="fa-solid fa-house-user"></i></span>
+                                <span class="cv-text" id="addressT">A-112 jaitpur Entx badarpur New delhi- 110044</span>
+                            </li>
+                            <li>
+                                <span class="icon-cv-Address Icon-cv"><i class="fa-solid fa-house-user"></i></span>
+                                <span class="cv-text" id="OtherT">A-112 jaitpur Entx badarpur New delhi- 110044</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="containerInformation education">
+                        <h3 class="cv-title">Education</h3>
+                        <ul id="EducationT">
+                            <li>
+                                <h5>2010 -2013</h5>
+                                <h4>Master Degree in Computer Science</h4>
+                                <h4>University Name</h4>
+                            </li>
+                            <li>
+                                <h5>2021 -2024</h5>
+                                <h4>Bachelor Degree in Computer Science</h4>
+                                <h4>University Name</h4>
+                            </li>
+                            <li>
+                                <h5>2020 -2021</h5>
+                                <h4> 12th </h4>
+                                <h4>School Name</h4>
+                            </li>
+                            <li>
+                                <h5>2018 -2019</h5>
+                                <h4> 10th </h4>
+                                <h4>University Name</h4>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="containerInformation language">
+                        <h3 class="cv-title">Languages</h3>
+                        <ul id="LanguageT">
+                            <li>
+                                <span class="cv-text">English</span>
+                                <span class="cv-percent">
+                                    <div style="width: 85%;"></div>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="cv-text">Spanish</span>
+                                <span class="cv-percent">
+                                    <div style="width: 45%;"></div>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="cv-text">Hindi</span>
+                                <span class="cv-percent">
+                                    <div style="width: 95%;"></div>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right_side">
+                    <div class="cv-about">
+                        <h2 class="cv-title-2">Profile</h2>
+                        <p class="cv-p" id="profileT">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
+                            nam,
+                            at nihil
+                            excepturi magnam
+                            quia aperiam voluptatem omnis commodi necessitatibus enim aut ad qui quam perferendis, hic,
+                            cum
+                            laborum. Ab?</p>
+                    </div>
+                    <div class="cv-about">
+                        <h2 class="cv-title-2">Objective</h2>
+                        <p class="cv-p" id="objectiveT">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
+                            nam,
+                            at nihil excepturi magnam
+                            quia aperiam voluptatem omnis commodi necessitatibus enim aut ad qui quam perferendis, hic,
+                            cum
+                            laborum. Ab?</p>
+                    </div>
+                    <div class="cv-about">
+                        <h2 class="cv-title-2">Experience</h2>
+                        <span id="ExperienceT">
+                            <div class="cv-box">
+                                <div class="cv-year_company">
+                                    <h5>2026 - Present</h5>
+                                    <h5>Company Name</h5>
+                                </div>
+                                <div class="cv-text">
+                                    <h4>Seni UX Designer</h4>
+                                    <p class="cv-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                                        corporis
+                                        voluptatibus non possimus accusamus alias obcaecati aperiam, ipsa neque officia
+                                        tempora
+                                        quidem blanditiis autem sunt dolore doloribus molestiae, nesciunt aliquid?</p>
+                                </div>
+                            </div>
+                            <div class="cv-box">
+                                <div class="cv-year_company">
+                                    <h5>2024 - 2025</h5>
+                                    <h5>Company Name</h5>
+                                </div>
+                                <div class="cv-text">
+                                    <h4>Seni UX Designer</h4>
+                                    <p class="cv-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                                        corporis
+                                        voluptatibus non possimus accusamus alias obcaecati aperiam, ipsa neque officia
+                                        tempora
+                                        quidem blanditiis autem sunt dolore doloribus molestiae, nesciunt aliquid?</p>
+                                </div>
+                            </div>
+                            <div class="cv-box">
+                                <div class="cv-year_company">
+                                    <h5>2023 - 2024</h5>
+                                    <h5>Company Name</h5>
+                                </div>
+                                <div class="cv-text">
+                                    <h4>Seni UX Designer</h4>
+                                    <p class="cv-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                                        corporis
+                                        voluptatibus non possimus accusamus alias obcaecati aperiam, ipsa neque officia
+                                        tempora
+                                        quidem blanditiis autem sunt dolore doloribus molestiae, nesciunt aliquid?</p>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="cv-about skills">
+                        <h2 class="cv-title-2">Professional Skills</h2>
+                        <span id="SkillsT">
+                            <div class="cv-box-2">
+                                <h4>Html</h4>
+                                <div class="cv-percent">
+                                    <div style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="cv-box-2">
+                                <h4>Css</h4>
+                                <div class="cv-percent">
+                                    <div style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="cv-box-2">
+                                <h4>Javascript</h4>
+                                <div class="cv-percent">
+                                    <div style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="cv-box-2">
+                                <h4>Bootstrap-5</h4>
+                                <div class="cv-percent">
+                                    <div style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="cv-box-2">
+                                <h4>Notejs</h4>
+                                <div class="cv-percent">
+                                    <div style="width: 65%;"></div>
+                                </div>
+                            </div>
+                            <div class="cv-box-2">
+                                <h4>React.js</h4>
+                                <div class="cv-percent">
+                                    <div style="width: 55%;"></div>
+                                </div>
+                            </div>
+                            <div class="cv-box-2">
+                                <h4>Photoshop</h4>
+                                <div class="cv-percent">
+                                    <div style="width: 55%;"></div>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="cv-about interest">
+                        <h2 class="cv-title-2">Interest</h2>
+                        <ul id="hobbiesT">
+                            <li>Gaming</li>
+                            <li>Singing</li>
+                            <li>Cooking</li>
+                            <li>Reading</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="print" onclick="printCV()">Print</button>
+    </div>
+    <script src="https://kit.fontawesome.com/bc65cd4db8.js" crossorigin="anonymous"></script>
+    <script src="/javascript/script.js"></script>
+</body>
+
+</html>
