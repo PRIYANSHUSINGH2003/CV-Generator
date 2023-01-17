@@ -22,16 +22,25 @@ Interactive Page
 ![image](https://user-images.githubusercontent.com/102310770/212891478-a430a5ba-289a-4910-959f-a6a2460a36e8.png)
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Image Effect
+# Image Effect
 ![image](https://user-images.githubusercontent.com/102310770/212891840-bbfa66ec-ab98-4e39-8c0b-46cf66312701.png)
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Responsive Nature
+# Responsive Nature
 ![image](https://user-images.githubusercontent.com/102310770/212895219-34bd726f-ee62-48b0-8bc2-c333b5a89bbb.png)
 ![image](https://user-images.githubusercontent.com/102310770/212895083-9c31d25e-3ff8-44a8-b090-02a3e329492c.png)
-CV
+# CV Template
 ![image](https://user-images.githubusercontent.com/102310770/212895330-cc0a099b-0b83-47fa-a4a6-85f69aa5771a.png)
 ![image](https://user-images.githubusercontent.com/102310770/212895503-3fb0e0cf-1dc5-488c-8e8f-83156eabcf96.png)
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Print CV
+![image](https://user-images.githubusercontent.com/102310770/212898008-ed2ec397-8d3a-40ba-b7f0-5952c371a038.png)
+![image](https://user-images.githubusercontent.com/102310770/212898095-d17139ea-80cd-45f6-b825-e503c49102f8.png)
+![image](https://user-images.githubusercontent.com/102310770/212898376-4318a1a4-7993-422e-8416-ea67081f5e41.png)
+# Print command
+![image](https://user-images.githubusercontent.com/102310770/212898478-b5ed611a-e3a1-4103-8001-b3bd32435008.png)
+![image](https://user-images.githubusercontent.com/102310770/212898617-1c5fec66-019f-4df0-b199-aa7aab4b1913.png)
 
 
 
